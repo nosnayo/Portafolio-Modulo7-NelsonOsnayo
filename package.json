@@ -1,5 +1,5 @@
 {
-  "name": "modulo8",
+  "name": "modulo7",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nosnayo/Portafolio-Modulo8-NelsonOsnayo-.git"
+    "url": "git+https://github.com/nosnayo/Portafolio-Modulo7-NelsonOsnayo-.git"
   },
   "keywords": [],
   "author": "“nelson <“nelson@gmail.com”>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nosnayo/Portafolio-Modulo8-NelsonOsnayo-.git"
+    "url": "https://github.com/nosnayo/Portafolio-Modulo7-NelsonOsnayo-.git"
   },
   "homepage": "",
   "dependencies": {

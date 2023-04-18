@@ -1,8 +1,22 @@
 ## NELSON OSNAYO
-### AVANCE DE PORTAFOLIO MÓDULO 8
+### AVANCE DE PORTAFOLIO MÓDULO 7
 ***
-***
-1.- Crear una api rest que utilizando JWT, permita el login/registro de usuarios al frontend creado. La tienda solo debe poder vender a usuarios registrados y cada usuario debe poder iniciar sesión con sus datos. La compra de productos debe ser por usuario y cada usuario debe tener un carro de productos independiente. 
+Para el desarrollo de su ecommerce debe implementar la comunicación 
+con su base de datos PostgresSql a través de una API Rest, utilizar un ORM y 
+además se deben poder realizar las mismas operaciones simuladas en la 
+base de datos del módulo 5, usando verbos HTTP para la compra de 
+productos y descuento de estos un inventario. 
+
+### Instrucciones: 
+1 .Api rest 
+Las rutas que deberás crear son las siguientes: 
+/GET: Devuelve la aplicación cliente (página principal). 
+/producto POST: Recibe los datos de un nuevo producto y los almacena en PostgreSQL. 
+/productos GET: Devuelve todos los productos registrados con su inventario o stock. 
+/producto PUT: Recibe los datos modificados de un producto registrado y los actualiza. 
+/producto DELETE: Recibe el id de un producto registrado y lo elimina. 
+/venta POST: Recibe los datos para realizar una nueva venta. Se debe  ocupar una transacción SQL en la consulta a la base de datos. 
+/ventas GET: Devuelve todas las ventas almacenadas en la base de datos en formato de lista o tabla. 
 
 ### EJECUCION DEL PROYECTO
 Para ejecutar el proyecto, sigue los siguientes pasos:
